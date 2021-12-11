@@ -1,4 +1,10 @@
+import tank
 import enemy
 print('Game started.  ')
-if tankfired:
+if tank.tankfired:
     enemy.dead()
+
+
+tankfired =False
+print('Game started.  ')
+
